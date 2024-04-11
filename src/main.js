@@ -3,14 +3,14 @@ import { createRouter, createWebHistory } from "vue-router";
 import "./style.css";
 
 import App from "./App.vue";
-import Home from "./components/views/HomeView.vue";
+import HomeView from "./components/views/HomeView.vue";
 import AboutView from "./components/views/AboutView.vue";
 import ServiceView from "./components/views/ServiceView.vue";
 import ProjectView from "./components/views/ProjectView.vue";
 import ContactView from "./components/views/ContactView.vue";
 
 const routes = [
-  { path: "/", component: Home },
+  { path: "/", component: HomeView },
   { path: "/about", component: AboutView },
   { path: "/services", component: ServiceView },
   { path: "/projects", component: ProjectView },

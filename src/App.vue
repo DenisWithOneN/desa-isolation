@@ -1,7 +1,11 @@
-<script setup></script>
+<script setup>
+import { RouterView } from "vue-router";
+import Navbar from "./components/general/Navbar.vue";
+</script>
 <template>
-  <p class="flex justify-center items-center min-h-screen">
-    welcome page - desa isolation
-  </p>
+  <body class="bg-gray-700">
+    <Navbar />
+    <RouterView></RouterView>
+  </body>
 </template>
 <style scoped></style>
