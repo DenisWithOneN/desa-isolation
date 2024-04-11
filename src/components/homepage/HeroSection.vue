@@ -8,8 +8,8 @@ import EmptyButton from "../general/EmptyButton.vue";
       <p class="text-white text-center text-3xl font-black uppercase mb-2">
         put your motto here lorem ipsum
       </p>
-      <FillButton text="despre noi"></FillButton>
-      <EmptyButton text="contact"></EmptyButton>
+      <FillButton text="despre noi" route="/about"></FillButton>
+      <EmptyButton text="contact" route="/contact"></EmptyButton>
     </div>
   </section>
 </template>
