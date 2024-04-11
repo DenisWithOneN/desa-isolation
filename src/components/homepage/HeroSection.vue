@@ -5,7 +5,7 @@ import EmptyButton from "../general/EmptyButton.vue";
 <template>
   <section>
     <div class="hero flex flex-col justify-center items-center gap-2">
-      <p class="text-white text-4xl font-black uppercase">Motto</p>
+      <p class="text-white text-4xl font-black uppercase mb-2">Motto</p>
       <FillButton text="despre noi"></FillButton>
       <EmptyButton text="contact"></EmptyButton>
     </div>
