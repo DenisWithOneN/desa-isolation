@@ -1,5 +1,11 @@
-<script setup></script>
+<script setup>
+import NavbarDesktop from "/src/components/general/NavbarDesktop.vue";
+import NavbarMobile from "/src/components/general/NavbarMobile.vue";
+import HeroSection from "../homepage/HeroSection.vue";
+</script>
 <template>
-  <p class="flex justify-center items-center min-h-screen">home view</p>
+  <NavbarDesktop />
+  <NavbarMobile />
+  <HeroSection />
 </template>
 <style scoped></style>
