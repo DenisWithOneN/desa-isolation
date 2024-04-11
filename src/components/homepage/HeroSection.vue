@@ -5,11 +5,14 @@ import EmptyButton from "../general/EmptyButton.vue";
 <template>
   <section>
     <div
-      class="hero flex flex-col lg:flex-row justify-center lg:justify-end items-center gap-2 lg:gap-5 px-5"
+      class="hero flex flex-col justify-center items-center gap-2 px-5 lg:flex-row lg:gap-5 lg:justify-end"
     >
       <div class="flex flex-col items-center lg:items-end">
-        <p class="text-white text-center text-3xl font-black uppercase mb-2">
-          put your motto here lorem ipsum
+        <p
+          class="text-white text-center text-2xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl lg:text-end font-black uppercase mb-2"
+        >
+          put your motto here<br />
+          lorem ipsum
         </p>
 
         <div class="flex flex-col gap-3 md:flex-row">
@@ -18,7 +21,7 @@ import EmptyButton from "../general/EmptyButton.vue";
         </div>
       </div>
 
-      <div class="bg-desalightgreen hidden lg:block w-2 h-32"></div>
+      <div class="bg-desalightgreen hidden w-2 h-32 lg:block"></div>
     </div>
   </section>
 </template>
@@ -28,6 +31,6 @@ import EmptyButton from "../general/EmptyButton.vue";
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  aspect-ratio: 5/4;
+  aspect-ratio: 16/9;
 }
 </style>
