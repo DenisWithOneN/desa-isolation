@@ -31,6 +31,12 @@ import EmptyButton from "../general/EmptyButton.vue";
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  aspect-ratio: 16/9;
+  min-height: 40rem;
+}
+
+@media (max-width: 640px) {
+  .hero {
+    min-height: 20rem;
+  }
 }
 </style>
