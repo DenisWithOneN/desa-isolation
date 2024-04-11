@@ -21,7 +21,7 @@ import EmptyButton from "../general/EmptyButton.vue";
         </div>
       </div>
 
-      <div class="bg-desalightgreen hidden w-2 h-32 lg:block"></div>
+      <div class="bg-desalightgreen hidden w-2 h-52 xl:h-60 lg:block"></div>
     </div>
   </section>
 </template>
