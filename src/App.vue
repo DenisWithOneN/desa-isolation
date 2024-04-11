@@ -1,10 +1,12 @@
 <script setup>
 import { RouterView } from "vue-router";
-import Navbar from "./components/general/Navbar.vue";
+import NavbarDesktop from "./components/general/NavbarDesktop.vue";
+import NavbarMobile from "./components/general/NavbarMobile.vue";
 </script>
 <template>
   <body class="bg-gray-700">
-    <Navbar />
+    <NavbarDesktop />
+    <NavbarMobile />
     <RouterView></RouterView>
   </body>
 </template>
