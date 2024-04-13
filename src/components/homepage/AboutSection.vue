@@ -5,7 +5,7 @@
       class="container mx-auto flex flex-col justify-center px-10 py-20 lg:flex-row lg:gap-10"
     >
       <div
-        class="flex flex-col items-center gap-5 mb-10 lg:items-start lg:w-1/2"
+        class="flex flex-col items-center justify-center gap-5 mb-10 lg:items-start lg:w-1/2"
       >
         <span class="flex flex-col items-center lg:items-start">
           <p class="text-desadarkgray text-sm uppercase lg:text-md">
