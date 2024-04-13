@@ -12,8 +12,10 @@ const props = defineProps({
     <div class="text-desalightgreen text-5xl mb-4">
       <i :class="icon"></i>
     </div>
-    <p class="text-xl text-center font-semibold">{{ title }}</p>
-    <p class="text-sm text-center px-2">
+    <p class="text-desadarkgray text-xl text-center font-semibold">
+      {{ title }}
+    </p>
+    <p class="text-desadarkgray text-sm text-center px-2">
       {{ text }}
     </p>
   </div>
