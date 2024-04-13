@@ -13,6 +13,7 @@ module.exports = {
         desadarkgreen: "#364B00",
         desalightgreen: "#699F00",
         desagray: "#E3E3E3",
+        desadarkgray: "#464646",
         desablack: "#1C1C1C",
       },
     },
