@@ -4,7 +4,7 @@ import ServiceCard from "./ServiceCard.vue";
 </script>
 <template>
   <section class="container mx-auto">
-    <div class="block lg:flex py-24">
+    <div class="block lg:flex py-24 lg:px-0 xl:px-10">
       <div
         class="flex flex-col items-center justify-around gap-3 mb-12 px-10 lg:items-start lg:order-last lg:w-1/2"
       >
@@ -38,9 +38,7 @@ import ServiceCard from "./ServiceCard.vue";
         ></FillButton>
       </div>
 
-      <div
-        class="flex flex-col justify-center items-center gap-10 lg:items-end lg:w-1/2"
-      >
+      <div class="flex flex-col justify-center items-center gap-10 lg:w-1/2">
         <img src="/public/svg/ellipse1.svg" alt="ellipse" class="absolute" />
         <div class="grid grid-cols-1 gap-5 md:grid-cols-2">
           <ServiceCard
