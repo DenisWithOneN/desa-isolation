@@ -21,7 +21,7 @@ import Definition from "./Definition.vue";
         semper non elit.
       </p>
 
-      <div class="flex flex-col gap-10 my-24">
+      <div class="flex flex-col gap-10 my-24 md:flex-row">
         <Definition
           :definition="`definition 1`"
           :text="`lorem ipsum vitae odio in erat sollicitudin gravida. Morbi lobortis neque eget`"
