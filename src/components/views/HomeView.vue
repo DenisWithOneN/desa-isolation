@@ -7,7 +7,7 @@ import AboutSection from "../homepage/AboutSection.vue";
 <template>
   <Navbar />
   <HeroSection />
-  <ServiceSection class="my-24" />
+  <ServiceSection />
   <AboutSection />
 </template>
 <style scoped></style>

@@ -4,7 +4,7 @@ import ServiceCard from "./ServiceCard.vue";
 </script>
 <template>
   <section class="container mx-auto">
-    <div class="block lg:flex">
+    <div class="block lg:flex py-24">
       <div
         class="flex flex-col items-center justify-around gap-3 mb-12 px-10 lg:items-start lg:order-last lg:w-1/2"
       >
