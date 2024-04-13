@@ -7,12 +7,12 @@ const props = defineProps({
 </script>
 <template>
   <div
-    class="bg-desalightgray h-52 w-52 flex flex-col items-center justify-center"
+    class="bg-desalightgray h-52 w-52 lg:w-60 lg:h-60 xl:w-72 xl:h-72 flex flex-col items-center justify-center"
   >
     <div class="text-desalightgreen text-5xl mb-4">
       <i :class="icon"></i>
     </div>
-    <p class="text-desadarkgray text-xl text-center font-semibold">
+    <p class="text-desadarkgray text-xl text-center font-bold">
       {{ title }}
     </p>
     <p class="text-desadarkgray text-sm text-center px-2">
