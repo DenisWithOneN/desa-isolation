@@ -6,7 +6,9 @@ const props = defineProps({
 });
 </script>
 <template>
-  <div class="bg-desagray h-52 w-52 flex flex-col items-center justify-center">
+  <div
+    class="bg-desalightgray h-52 w-52 flex flex-col items-center justify-center"
+  >
     <div class="text-desalightgreen text-5xl mb-4">
       <i :class="icon"></i>
     </div>
