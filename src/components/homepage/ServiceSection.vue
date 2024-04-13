@@ -6,7 +6,7 @@ import ServiceCard from "./ServiceCard.vue";
   <section class="container mx-auto">
     <div class="block lg:flex">
       <div
-        class="flex flex-col items-center justify-around gap-3 mb-12 px-10 lg:order-last lg:items-start lg:w-1/2"
+        class="flex flex-col items-center justify-around gap-3 mb-12 px-10 lg:items-start lg:order-last lg:w-1/2"
       >
         <div class="flex flex-col items-center lg:items-start">
           <p class="text-desadarkgray text-sm uppercase lg:text-md">
@@ -39,7 +39,7 @@ import ServiceCard from "./ServiceCard.vue";
       </div>
 
       <div
-        class="flex flex-col justify-center items-center gap-10 lg:w-1/2 lg:items-end"
+        class="flex flex-col justify-center items-center gap-10 lg:items-end lg:w-1/2"
       >
         <div class="grid grid-cols-1 gap-5 md:grid-cols-2">
           <ServiceCard
