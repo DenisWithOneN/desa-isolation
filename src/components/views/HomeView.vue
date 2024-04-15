@@ -4,6 +4,7 @@ import HeroSection from "../homepage/HeroSection.vue";
 import ServiceSection from "../homepage/ServiceSection.vue";
 import AboutSection from "../homepage/AboutSection.vue";
 import DefinitionSection from "../homepage/DefinitionSection.vue";
+import AdvantageSection from "../homepage/AdvantageSection.vue";
 </script>
 <template>
   <Navbar />
@@ -11,5 +12,6 @@ import DefinitionSection from "../homepage/DefinitionSection.vue";
   <ServiceSection />
   <AboutSection />
   <DefinitionSection />
+  <AdvantageSection />
 </template>
 <style scoped></style>
