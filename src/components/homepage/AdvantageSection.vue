@@ -5,7 +5,7 @@ import FillButton from "../general/FillButton.vue";
 <template>
   <section>
     <div class="container mx-auto py-24">
-      <div class="flex flex-col items-center gap-5">
+      <div class="flex flex-col items-center gap-5 lg:hidden">
         <div class="flex flex-col items-center">
           <p class="text-desadarkgray text-sm uppercase lg:text-md">servicii</p>
           <div class="bg-desalightgreen w-12 h-1 mt-1 lg:w-14"></div>
@@ -19,10 +19,25 @@ import FillButton from "../general/FillButton.vue";
       </div>
 
       <div class="flex flex-col items-center justify-center gap-10 mt-14">
-        <div class="grid grid-cols-2 place-items-center gap-5 md:grid-cols-3">
+        <div
+          class="grid grid-cols-2 place-items-center gap-5 md:grid-cols-3 lg:grid-cols-4 lg:grid-rows-2"
+        >
           <AdvantageCard />
           <AdvantageCard />
-          <div class="hidden col-span-2">avantajele spumei poliuretanice</div>
+          <div class="hidden col-span-2 lg:block">
+            <div class="flex flex-col items-end">
+              <p class="text-desadarkgray text-sm uppercase lg:text-md">
+                servicii
+              </p>
+              <div class="bg-desalightgreen w-12 h-1 mt-1 lg:w-14"></div>
+            </div>
+            <h2
+              class="text-desadarkgreen text-2xl text-end font-black uppercase sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl 2xl:text-6xl"
+            >
+              avantajele spumei<br />
+              poliuretanice
+            </h2>
+          </div>
           <AdvantageCard />
           <AdvantageCard />
           <AdvantageCard />
