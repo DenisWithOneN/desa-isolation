@@ -21,4 +21,8 @@ const routes = [
 
 const router = createRouter({ history: createWebHistory(), routes: routes });
 
-createApp(App).use(router).mount("#app");
+const app = createApp(App);
+import { Swipe, SwipeItem } from "vant";
+app.use(Swipe);
+app.use(SwipeItem);
+app.use(router).mount("#app");
