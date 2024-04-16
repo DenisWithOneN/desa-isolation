@@ -18,8 +18,8 @@ import FillButton from "../general/FillButton.vue";
         </h2>
       </div>
 
-      <div class="flex justify-center mt-14">
-        <div class="grid grid-cols-2 place-items-center gap-5">
+      <div class="flex flex-col items-center justify-center gap-10 mt-14">
+        <div class="grid grid-cols-2 place-items-center gap-5 md:grid-cols-3">
           <AdvantageCard />
           <AdvantageCard />
           <div class="hidden col-span-2">avantajele spumei poliuretanice</div>
@@ -28,6 +28,7 @@ import FillButton from "../general/FillButton.vue";
           <AdvantageCard />
           <AdvantageCard />
         </div>
+        <FillButton :text="`servicii`" :route="`/services`"></FillButton>
       </div>
     </div>
   </section>
