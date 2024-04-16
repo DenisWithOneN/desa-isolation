@@ -24,7 +24,9 @@ import FillButton from "../general/FillButton.vue";
         >
           <AdvantageCard />
           <AdvantageCard />
-          <div class="hidden col-span-2 lg:block">
+          <div
+            class="hidden col-span-2 lg:flex lg:flex-col lg:items-end lg:gap-5"
+          >
             <div class="flex flex-col items-end">
               <p class="text-desadarkgray text-sm uppercase lg:text-md">
                 servicii
@@ -37,13 +39,22 @@ import FillButton from "../general/FillButton.vue";
               avantajele spumei<br />
               poliuretanice
             </h2>
+            <FillButton
+              :text="`servicii`"
+              :route="`/services`"
+              class="hidden lg:block"
+            ></FillButton>
           </div>
           <AdvantageCard />
           <AdvantageCard />
           <AdvantageCard />
           <AdvantageCard />
         </div>
-        <FillButton :text="`servicii`" :route="`/services`"></FillButton>
+        <FillButton
+          :text="`servicii`"
+          :route="`/services`"
+          class="lg:hidden"
+        ></FillButton>
       </div>
     </div>
   </section>
