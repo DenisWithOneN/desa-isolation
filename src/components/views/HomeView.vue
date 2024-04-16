@@ -6,6 +6,7 @@ import AboutSection from "../homepage/AboutSection.vue";
 import DefinitionSection from "../homepage/DefinitionSection.vue";
 import AdvantageSection from "../homepage/AdvantageSection.vue";
 import ProjectSection from "../homepage/ProjectSection.vue";
+import WhyusSection from "../homepage/WhyusSection.vue";
 </script>
 <template>
   <Navbar />
@@ -15,5 +16,6 @@ import ProjectSection from "../homepage/ProjectSection.vue";
   <DefinitionSection />
   <AdvantageSection />
   <ProjectSection />
+  <WhyusSection />
 </template>
 <style scoped></style>
