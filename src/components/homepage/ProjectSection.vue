@@ -6,7 +6,7 @@ import ProjectCard from "../homepage/ProjectCard.vue";
     <div class="container mx-auto flex flex-col items-center gap-10 px-10">
       <div class="flex flex-col items-center gap-2">
         <h2
-          class="text-desadarkgreen text-2xl text-center font-black uppercase sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl"
+          class="text-desadarkgreen text-3xl text-center font-black uppercase sm:text-4xl md:text-5xl xl:text-6xl"
         >
           proiecte
         </h2>
