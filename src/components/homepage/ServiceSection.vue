@@ -3,8 +3,8 @@ import FillButton from "../general/FillButton.vue";
 import ServiceCard from "./ServiceCard.vue";
 </script>
 <template>
-  <section class="container mx-auto">
-    <div class="block lg:flex py-24 lg:px-0 xl:px-10">
+  <section class="py-24">
+    <div class="container mx-auto block lg:flex lg:px-10">
       <div
         class="flex flex-col items-center justify-around gap-3 mb-12 px-10 lg:items-start lg:order-last lg:w-1/2"
       >
@@ -16,13 +16,13 @@ import ServiceCard from "./ServiceCard.vue";
         </div>
 
         <h2
-          class="text-desadarkgreen text-2xl text-center font-black uppercase mb-2 sm:text-4xl md:text-5xl lg:text-6xl lg:text-start xl:text-7xl"
+          class="text-desadarkgreen text-3xl text-center font-black uppercase mb-2 sm:text-4xl md:text-5xl lg:text-5xl lg:text-start xl:text-6xl 2xl:text-6xl"
         >
           Lorem ipsum dolor sit amet
         </h2>
 
         <p
-          class="text-desadarkgray text-center text-sm sm:text-md md:text-lg lg:text-xl lg:text-start xl:text-2xl"
+          class="text-desadarkgray text-center text-sm sm:text-md md:text-lg lg:text-lg lg:text-start xl:text-xl 2xl:text-2xl"
         >
           Mauris urna orci, ultricies vel laoreet ac, vehicula sit amet justo.
           Integer eu lorem eget dolor bibendum lacinia a ac urna. Ut sed egestas
@@ -40,7 +40,7 @@ import ServiceCard from "./ServiceCard.vue";
 
       <div class="flex flex-col justify-center items-center gap-10 lg:w-1/2">
         <img src="/public/svg/ellipse1.svg" alt="ellipse" class="absolute" />
-        <div class="grid grid-cols-1 gap-5 md:grid-cols-2">
+        <div class="grid grid-cols-1 gap-5 sm:grid-cols-2">
           <ServiceCard
             :icon="`bi bi-dash-square`"
             :title="`Service One`"
