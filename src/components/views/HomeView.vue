@@ -7,6 +7,7 @@ import DefinitionSection from "../homepage/DefinitionSection.vue";
 import AdvantageSection from "../homepage/AdvantageSection.vue";
 import ProjectSection from "../homepage/ProjectSection.vue";
 import WhyusSection from "../homepage/WhyusSection.vue";
+import Footer from "../general/Footer.vue";
 </script>
 <template>
   <Navbar />
@@ -17,5 +18,6 @@ import WhyusSection from "../homepage/WhyusSection.vue";
   <AdvantageSection />
   <ProjectSection />
   <WhyusSection />
+  <Footer />
 </template>
 <style scoped></style>
