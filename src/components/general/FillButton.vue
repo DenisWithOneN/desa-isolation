@@ -6,7 +6,7 @@ const props = defineProps({
 </script>
 <template>
   <button
-    class="bg-desalightgreen text-white flex justify-center items-center w-32 h-12 py-2 px-4"
+    class="bg-desalightgreen text-white font-semibold flex justify-center items-center w-32 h-12 py-2 px-4"
   >
     <RouterLink :to="route">{{ text }}</RouterLink>
   </button>
