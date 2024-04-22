@@ -40,7 +40,7 @@
 
       <div class="flex justify-center">
         <img
-          src="/public/images/about-image.png"
+          src="/images/about-image.png"
           alt="about image"
           class="sm:h-96 xl:h-full"
         />

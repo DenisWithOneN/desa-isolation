@@ -17,7 +17,7 @@ function closeNavBar() {
       >
         <i class="bi bi-list"></i>
       </button>
-      <img src="/public/images/logo-desa.png" alt="" class="h-8 sm:h-12" />
+      <img src="/images/logo-desa.png" alt="" class="h-8 sm:h-12" />
       <button class="text-desalightgreen text-xl sm:text-3xl">
         <i class="bi bi-chat-fill"></i>
       </button>

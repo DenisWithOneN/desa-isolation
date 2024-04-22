@@ -3,7 +3,7 @@
   <section>
     <div class="bg-white hidden md:flex justify-between items-center p-3">
       <div class="flex items-center gap-5">
-        <img src="/public/images/logo-desa.png" alt="" class="h-12" />
+        <img src="/images/logo-desa.png" alt="" class="h-12" />
         <button class="text-desalightgreen uppercase font-semibold">
           <RouterLink to="/">acasa</RouterLink>
         </button>

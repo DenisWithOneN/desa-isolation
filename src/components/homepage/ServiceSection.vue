@@ -39,7 +39,7 @@ import ServiceCard from "./ServiceCard.vue";
       </div>
 
       <div class="flex flex-col justify-center items-center gap-10 lg:w-1/2">
-        <img src="/public/svg/ellipse1.svg" alt="ellipse" class="absolute" />
+        <img src="/svg/ellipse1.svg" alt="ellipse" class="absolute" />
         <div class="grid grid-cols-1 gap-5 sm:grid-cols-2">
           <ServiceCard
             :icon="`bi bi-dash-square`"

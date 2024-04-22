@@ -7,7 +7,7 @@ import FooterList from "./FooterList.vue";
       class="container mx-auto flex flex-col lg:flex-row lg:justify-around items-center gap-5"
     >
       <img
-        src="/public/images/logo-desa.png"
+        src="/images/logo-desa.png"
         alt="logo"
         class="h-32 sm:h-36 md:h-48 lg:h-52 2xl:h-60"
       />

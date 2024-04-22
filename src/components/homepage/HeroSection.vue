@@ -27,7 +27,7 @@ import EmptyButton from "../general/EmptyButton.vue";
 </template>
 <style scoped>
 .hero {
-  background-image: url("public/images/DSC04976.jpg");
+  background-image: url("/images/DSC04976.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
