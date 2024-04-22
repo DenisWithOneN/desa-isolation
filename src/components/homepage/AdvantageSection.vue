@@ -22,8 +22,18 @@ import FillButton from "../general/FillButton.vue";
         <div
           class="grid grid-cols-2 place-items-stretch gap-2 sm:gap-5 md:grid-cols-3 lg:grid-cols-4 lg:grid-rows-2"
         >
-          <AdvantageCard />
-          <AdvantageCard />
+          <AdvantageCard
+            :cardNr="`01`"
+            :icon="`bi bi-thermometer-sun`"
+            :title="`Izolație`"
+            :text="`termică excelentă`"
+          />
+          <AdvantageCard
+            :cardNr="`02`"
+            :icon="`bi bi-house-gear`"
+            :title="`Eficiență `"
+            :text="`energetică crescută`"
+          />
           <div
             class="hidden col-span-2 w-full h-full flex-col items-end gap-5 lg:flex"
           >
@@ -45,10 +55,30 @@ import FillButton from "../general/FillButton.vue";
               class="hidden lg:block"
             ></FillButton>
           </div>
-          <AdvantageCard />
-          <AdvantageCard />
-          <AdvantageCard />
-          <AdvantageCard />
+          <AdvantageCard
+            :cardNr="`03`"
+            :icon="`bi bi-infinity`"
+            :title="`Etanșeitatea`"
+            :text="`și continuitatea acoperirii`"
+          />
+          <AdvantageCard
+            :cardNr="`04`"
+            :icon="`bi bi-shield`"
+            :title="`Rezistența`"
+            :text="`împotriva factorilor chimici`"
+          />
+          <AdvantageCard
+            :cardNr="`05`"
+            :icon="`bi bi-speedometer`"
+            :title="`Montajul`"
+            :text="`rapid și eficient`"
+          />
+          <AdvantageCard
+            :cardNr="`06`"
+            :icon="`bi bi-volume-mute`"
+            :title="`Izolare`"
+            :text="`fonică și confort`"
+          />
         </div>
       </div>
       <FillButton

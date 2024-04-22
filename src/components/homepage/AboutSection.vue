@@ -2,7 +2,7 @@
 <template>
   <section class="bg-desalightgray py-24">
     <div
-      class="container mx-auto flex flex-col justify-around px-10 lg:flex-row lg:gap-10"
+      class="container mx-auto flex flex-col justify-around items-center px-10 lg:flex-row lg:gap-10"
     >
       <div
         class="flex flex-col items-center justify-center gap-5 mb-10 lg:items-start lg:w-1/2"
@@ -21,11 +21,20 @@
         <p
           class="text-desadarkgray text-center text-sm max-w-4xl sm:text-md md:text-lg lg:text-lg lg:text-start xl:text-xl 2xl:text-2xl"
         >
-          Cras mollis gravida lorem quis suscipit. Vivamus eleifend ipsum vel
-          mollis porta. Nam et velit non velit mattis pretium. Sed dolor magna,
-          vulputate nec porta nec, dapibus eget orci. Nam id tellus in erat
-          eleifend porttitor vel sit amet ligula. Maecenas at lectus lacus.
-          Mauris lobortis vel tellus sed interdum.
+          Cu o experiență de peste 25 de ani în domeniul izolațiilor,
+          <a
+            class="text-desalightgreen underline underline-offset-2 decoration-2"
+            >Desa Isolation</a
+          >
+          se remarcă ca fiind un lider de încredere în industrie. Angajamentul
+          nostru față de calitate și excelență este reflectat în fiecare proiect
+          pe care-l abordăm. Echipa noastră dedicată de profesioniști
+          experimentați este pregătită să ofere soluții personalizate și
+          inovatoare pentru nevoile de izolare ale clienților noștri. Cu o
+          abordare orientată către satisfacerea clienților și o pasiune pentru
+          perfecțiune, suntem aici pentru a vă asigura că obțineți rezultatele
+          dorite, fie că este vorba despre izolarea unei locuințe, a unui spațiu
+          industrial sau a altor tipuri de construcții.
         </p>
       </div>
 
@@ -33,7 +42,7 @@
         <img
           src="/public/images/about-image.png"
           alt="about image"
-          class="sm:h-96 lg:h-full"
+          class="sm:h-96 xl:h-full"
         />
       </div>
     </div>

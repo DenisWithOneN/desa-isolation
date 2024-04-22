@@ -18,21 +18,21 @@ import ServiceCard from "./ServiceCard.vue";
         <h2
           class="text-desadarkgreen text-3xl text-center font-black uppercase mb-2 sm:text-4xl md:text-5xl lg:text-5xl lg:text-start xl:text-6xl 2xl:text-6xl"
         >
-          Lorem ipsum dolor sit amet
+          alege serviciul potrivit pentru tine
         </h2>
 
         <p
           class="text-desadarkgray text-center text-sm sm:text-md md:text-lg lg:text-lg lg:text-start xl:text-xl 2xl:text-2xl"
         >
-          Mauris urna orci, ultricies vel laoreet ac, vehicula sit amet justo.
-          Integer eu lorem eget dolor bibendum lacinia a ac urna. Ut sed egestas
-          urna. Phasellus pharetra, sem in consectetur sollicitudin, purus velit
-          faucibus tellus eget dolor bibendum lacinia a ac urna. Ut sed egestas
-          urna. Phasellus pharetra, sem in consectetur sollicitudin, purus velit
-          faucibus tellus
+          Cu o gamă completă de soluții de izolare cu spumă poliuretanică,
+          suntem aici pentru a vă oferi confortul și protecția de care aveți
+          nevoie. De la izolarea exterioară și interioară a clădirilor, inclusiv
+          spații industriale, până la hidroizolații și fonoizolații
+          specializate, ne asigurăm că fiecare proiect este realizat cu cea mai
+          mare atenție și expertiză.
         </p>
         <FillButton
-          text="servicii"
+          text="servicii >"
           route="/services"
           class="hidden lg:block"
         ></FillButton>
@@ -43,27 +43,23 @@ import ServiceCard from "./ServiceCard.vue";
         <div class="grid grid-cols-1 gap-5 sm:grid-cols-2">
           <ServiceCard
             :icon="`bi bi-dash-square`"
-            :title="`Service One`"
-            :text="`Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint repellat,
-      non sequi quisquam`"
+            :title="`Izolare cu spumă poliuretanica`"
+            :text="`Spuma poliuretanică se evidențiază ca fiind cea mai practică și performantă soluție de izolare disponibilă pe piață.`"
           ></ServiceCard>
           <ServiceCard
-            :icon="`bi bi-dash-square`"
-            :title="`Service Two`"
-            :text="`Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint repellat,
-      non sequi quisquam`"
+            :icon="`bi bi-dash-square-dotted`"
+            :title="`Servicii de hidroizolații`"
+            :text="`Pentru hidroizolații, folosim atât spumă poliuretanică obișnuită, cât și variantele de cea mai bună calitate disponibile pe piață.`"
           ></ServiceCard>
           <ServiceCard
-            :icon="`bi bi-dash-square`"
-            :title="`Service Three`"
-            :text="`Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint repellat,
-      non sequi quisquam`"
+            :icon="`bi bi-slash-square`"
+            :title="`Servicii de fonoizolatii cu spuma`"
+            :text="`Spuma poliuretanică SOC010 cu celule deschise este o soluție ideală pentru izolația termică și fonoabsorbția, fiind ușor de aplicat și versatilă.`"
           ></ServiceCard>
           <ServiceCard
-            :icon="`bi bi-dash-square`"
-            :title="`Service Four`"
-            :text="`Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint repellat,
-      non sequi quisquam`"
+            :icon="`bi bi-dash-square-fill`"
+            :title="`Servicii izolatie fatade ventilate`"
+            :text="`Cu tehnologia noastră pentru fatade ventilate, veți constata îmbunătățiri semnificative în ceea ce privește confortul termic și reducerea zgomotului`"
           ></ServiceCard>
         </div>
         <FillButton

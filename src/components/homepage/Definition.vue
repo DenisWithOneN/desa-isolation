@@ -2,6 +2,7 @@
 const props = defineProps({
   definition: String,
   text: String,
+  icon: String,
 });
 </script>
 <template>
@@ -10,9 +11,9 @@ const props = defineProps({
       <div
         class="bg-white w-52 h-52 md:w-40 md:h-40 lg:w-52 lg:h-52 xl:w-72 xl:h-72 rounded-full flex justify-center items-center"
       >
-        <i
-          class="text-desalime bi bi-house text-8xl md:text-7xl lg:text-8xl xl:text-9xl"
-        ></i>
+        <span class="text-desalime text-8xl md:text-7xl lg:text-8xl xl:text-9xl"
+          ><i :class="icon"></i
+        ></span>
       </div>
       <div class="bg-white w-1 h-14"></div>
       <div class="bg-white w-4 h-4 rounded-full"></div>
@@ -20,7 +21,7 @@ const props = defineProps({
 
     <span class="flex flex-col items-center gap-2 mt-5">
       <p
-        class="text-white text-2xl font-semibold uppercase lg:text-3xl xl:text-4xl"
+        class="text-white text-2xl font-semibold text-center uppercase lg:text-3xl xl:text-4xl"
       >
         {{ definition }}
       </p>
@@ -28,7 +29,7 @@ const props = defineProps({
     </span>
 
     <p
-      class="text-white text-sm md:text-md lg:text-lg xl:text-xl text-center w-52 mt-10 lg:w-72 xl:w-96"
+      class="text-white text-sm md:text-md lg:text-lg xl:text-xl text-center px-3 w-52 mt-10 lg:w-72 xl:w-96"
     >
       {{ text }}
     </p>

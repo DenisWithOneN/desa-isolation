@@ -4,7 +4,7 @@ import WhyusReviewCard from "./WhyusReviewCard.vue";
 </script>
 <template>
   <section class="bg-desadarkgreen py-24">
-    <div class="flex flex-col items-center gap-10">
+    <div class="container mx-auto flex flex-col items-center gap-10 px-10">
       <div class="flex flex-col items-center gap-2">
         <p class="text-white text-sm uppercase lg:text-md">
           alegerea ta conteaza
@@ -17,16 +17,16 @@ import WhyusReviewCard from "./WhyusReviewCard.vue";
         </h2>
       </div>
 
-      <div class="flex flex-col items-center gap-10 lg:flex-row lg:gap-20">
-        <div
-          class="grid md:grid-cols-3 lg:grid-cols-2 gap-5 place-items-center"
-        >
-          <WhyusCard />
-          <WhyusCard />
-          <WhyusCard />
-          <WhyusCard />
-          <WhyusCard />
-          <WhyusCard />
+      <div
+        class="flex flex-col items-center justify-center gap-10 lg:flex-row lg:gap-20"
+      >
+        <div class="grid md:grid-cols-3 lg:grid-cols-2 gap-5 place-items-start">
+          <WhyusCard :text="`calitatea materialelor de izolare`" />
+          <WhyusCard :text="`o bună realizare a izolațiilor`" />
+          <WhyusCard :text="`calitatea serviciilor`" />
+          <WhyusCard :text="`soluții rapide și eficiente`" />
+          <WhyusCard :text="`îmbunătățirea constantă a serviciilor`" />
+          <WhyusCard :text="`prioritizarea multumirii clientului`" />
         </div>
         <WhyusReviewCard />
       </div>

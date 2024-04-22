@@ -1,17 +1,24 @@
-<script setup></script>
+<script setup>
+defineProps({
+  listHeader: String,
+  listItem1: String,
+  listItem2: String,
+  listItem3: String,
+});
+</script>
 <template>
   <ul class="flex flex-col gap-1">
     <header class="text-desalightgreen text-sm uppercase font-bold pb-4">
-      companie
+      {{ listHeader }}
     </header>
     <li class="text-desalightgray text-sm text-center uppercase md:text-start">
-      despre noi
+      {{ listItem1 }}
     </li>
     <li class="text-desalightgray text-sm text-center uppercase md:text-start">
-      servicii
+      {{ listItem2 }}
     </li>
     <li class="text-desalightgray text-sm text-center uppercase md:text-start">
-      proiecte
+      {{ listItem3 }}
     </li>
   </ul>
 </template>

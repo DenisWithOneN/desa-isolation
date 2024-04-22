@@ -12,9 +12,24 @@ import FooterList from "./FooterList.vue";
         class="h-32 sm:h-36 md:h-48 lg:h-52 2xl:h-60"
       />
       <div class="flex flex-col md:flex-row gap-10">
-        <FooterList />
-        <FooterList />
-        <FooterList />
+        <FooterList
+          :listHeader="`companie`"
+          :listItem1="`despre noi`"
+          :listItem2="`servicii`"
+          :listItem3="`proiecte`"
+        />
+        <FooterList
+          :listHeader="`legal`"
+          :listItem1="``"
+          :listItem2="``"
+          :listItem3="``"
+        />
+        <FooterList
+          :listHeader="`suport`"
+          :listItem1="`contact`"
+          :listItem2="``"
+          :listItem3="``"
+        />
       </div>
       <hr />
     </div>

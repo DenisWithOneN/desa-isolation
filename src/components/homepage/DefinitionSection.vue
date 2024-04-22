@@ -4,38 +4,33 @@ import Definition from "./Definition.vue";
 <template>
   <section class="bg-desadarkgreen py-24">
     <div class="container mx-auto px-10 flex flex-col items-center">
-      <span class="flex flex-col items-center gap-3 mb-10">
+      <span class="flex flex-col items-center gap-3">
         <h2
           class="text-white text-center text-3xl uppercase font-black sm:text-4xl md:text-5xl xl:text-6xl"
         >
-          ce este izolarea cu spuma<br />
-          poliuretanica?
+          ce înseamnă izolarea<br />
+          cu spumă poliuretanică?
         </h2>
         <div class="bg-desalime w-52 h-1 lg:w-96"></div>
       </span>
-
-      <p
-        class="text-white text-center text-sm sm:text-md md:text-lg md:max-w-md lg:text-xl lg:max-w-lg xl:text-2xl xl:max-w-2xl 2xl:max-w-4xl"
-      >
-        Sed vitae odio in erat sollicitudin gravida. Morbi lobortis neque eget
-        orci maximus eleifend. Vivamus odio ex, tincidunt vel efficitur vitae,
-        semper non elit.
-      </p>
 
       <div
         class="flex flex-col w-full gap-10 md:gap-0 justify-around my-24 md:flex-row"
       >
         <Definition
-          :definition="`definition 1`"
-          :text="`lorem ipsum vitae odio in erat sollicitudin gravida. Morbi lobortis neque eget`"
+          :icon="`bi bi-thermometer-low`"
+          :definition="`Eficiență termică superioară`"
+          :text="`Izolarea cu spumă poliuretanică reduce pierderile de căldură, asigurând confort termic și economisind energie.`"
         />
         <Definition
-          :definition="`definition 1`"
-          :text="`lorem ipsum orci maximus eleifend. Vivamus odio ex, tincidunt vel efficitur vitae,`"
+          :icon="`bi bi-shield-check`"
+          :definition="`Economie și siguranță`"
+          :text="`Spuma poliuretanică creează o barieră etanșă împotriva infiltrării de apă și asigură protecția structurii împotriva deteriorării și a infiltrațiilor.`"
         />
         <Definition
-          :definition="`definition 1`"
-          :text="`lorem ipsum semper non elit.`"
+          :icon="`bi bi-noise-reduction`"
+          :definition="`Absorbție fonoizolantă`"
+          :text="` Izolarea cu spumă poliuretanică reduce zgomotul din exterior și contribuie la crearea unui mediu mai liniștit și confortabil în interior.`"
         />
       </div>
     </div>
