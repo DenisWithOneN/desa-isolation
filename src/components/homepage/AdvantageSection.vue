@@ -1,6 +1,6 @@
 <script setup>
-import AdvantageCard from "../homepage/AdvantageCard.vue";
-import FillButton from "../general/FillButton.vue";
+import AdvantageCard from "@/components/homepage/AdvantageCard.vue";
+import FillButton from "@/components/general/FillButton.vue";
 </script>
 <template>
   <section class="py-24">

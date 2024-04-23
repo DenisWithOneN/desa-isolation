@@ -1,6 +1,6 @@
 <script setup>
-import FillButton from "../general/FillButton.vue";
-import EmptyButton from "../general/EmptyButton.vue";
+import FillButton from "@/components/general/FillButton.vue";
+import EmptyButton from "@/components/general/EmptyButton.vue";
 </script>
 <template>
   <section>

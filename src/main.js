@@ -4,12 +4,12 @@ import "./style.css";
 
 import "bootstrap-icons/font/bootstrap-icons.css";
 
-import App from "./App.vue";
-import HomeView from "./components/views/HomeView.vue";
-import AboutView from "./components/views/AboutView.vue";
-import ServiceView from "./components/views/ServiceView.vue";
-import ProjectView from "./components/views/ProjectView.vue";
-import ContactView from "./components/views/ContactView.vue";
+import App from "@/App.vue";
+import HomeView from "@/components/views/HomeView.vue";
+import AboutView from "@/components/views/AboutView.vue";
+import ServiceView from "@/components/views/ServiceView.vue";
+import ProjectView from "@/components/views/ProjectView.vue";
+import ContactView from "@/components/views/ContactView.vue";
 
 const routes = [
   { path: "/", component: HomeView },
