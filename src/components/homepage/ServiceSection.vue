@@ -1,6 +1,6 @@
 <script setup>
-import FillButton from "@/components/general/FillButton.vue";
-import ServiceCard from "@/components/homepage/ServiceCard.vue";
+import FillButton from "/src/components/general/FillButton.vue";
+import ServiceCard from "/src/components/homepage/ServiceCard.vue";
 </script>
 <template>
   <section class="py-24">

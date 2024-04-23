@@ -1,5 +1,5 @@
 <script setup>
-import ProjectCard from "@/components/homepage/ProjectCard.vue";
+import ProjectCard from "/src/components/homepage/ProjectCard.vue";
 </script>
 <template>
   <section class="bg-desalightgray py-24">

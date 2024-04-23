@@ -1,6 +1,6 @@
 <script setup>
-import NavbarDesktop from "@/components/general/NavbarDesktop.vue";
-import NavbarMobile from "@/components/general/NavbarMobile.vue";
+import NavbarDesktop from "/src/components/general/NavbarDesktop.vue";
+import NavbarMobile from "/src/components/general/NavbarMobile.vue";
 </script>
 <template>
   <NavbarDesktop />

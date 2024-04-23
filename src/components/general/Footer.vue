@@ -1,5 +1,5 @@
 <script setup>
-import FooterList from "@/components/general/FooterList.vue";
+import FooterList from "/src/components/general/FooterList.vue";
 </script>
 <template>
   <section class="bg-desablack py-24">

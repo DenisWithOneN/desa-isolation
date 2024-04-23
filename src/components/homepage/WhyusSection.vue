@@ -1,6 +1,6 @@
 <script setup>
-import WhyusCard from "@/components/homepage/WhyusCard.vue";
-import WhyusReviewCard from "@/components/homepage/WhyusReviewCard.vue";
+import WhyusCard from "/src/components/homepage/WhyusCard.vue";
+import WhyusReviewCard from "/src/components/homepage/WhyusReviewCard.vue";
 </script>
 <template>
   <section class="bg-desadarkgreen py-24">

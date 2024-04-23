@@ -1,13 +1,13 @@
 <script setup>
-import Navbar from "@/components/general/Navbar.vue";
-import HeroSection from "@/components/homepage/HeroSection.vue";
-import ServiceSection from "@/components/homepage/ServiceSection.vue";
-import AboutSection from "@/components/homepage/AboutSection.vue";
-import DefinitionSection from "@/components/homepage/DefinitionSection.vue";
-import AdvantageSection from "@/components/homepage/AdvantageSection.vue";
-import ProjectSection from "@/components/homepage/ProjectSection.vue";
-import WhyusSection from "@/components/homepage/WhyusSection.vue";
-import Footer from "@/components/general/Footer.vue";
+import Navbar from "/src/components/general/Navbar.vue";
+import HeroSection from "/src/components/homepage/HeroSection.vue";
+import ServiceSection from "/src/components/homepage/ServiceSection.vue";
+import AboutSection from "/src/components/homepage/AboutSection.vue";
+import DefinitionSection from "/src/components/homepage/DefinitionSection.vue";
+import AdvantageSection from "/src/components/homepage/AdvantageSection.vue";
+import ProjectSection from "/src/components/homepage/ProjectSection.vue";
+import WhyusSection from "/src/components/homepage/WhyusSection.vue";
+import Footer from "/src/components/general/Footer.vue";
 </script>
 <template>
   <Navbar />
