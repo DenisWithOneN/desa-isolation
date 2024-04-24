@@ -1,5 +1,5 @@
 <script setup>
-import Definition from "/src/components/homepage/Definition.vue";
+import Definition from "../homepage/Definition.vue";
 </script>
 <template>
   <section class="bg-desadarkgreen py-24">

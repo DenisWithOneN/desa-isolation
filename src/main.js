@@ -1,5 +1,5 @@
 import { createApp } from "vue";
-import { createRouter, createWebHistory } from "vue-router";
+import { createRouter, createWebHashHistory } from "vue-router";
 import "./style.css";
 
 import "bootstrap-icons/font/bootstrap-icons.css";
@@ -19,10 +19,10 @@ const routes = [
   { path: "/contact", component: ContactView },
 ];
 
-const router = createRouter({ history: createWebHistory(), routes: routes });
+const router = createRouter({
+  history: createWebHashHistory(),
+  routes,
+});
 
 const app = createApp(App);
-import { Swipe, SwipeItem } from "vant";
-app.use(Swipe);
-app.use(SwipeItem);
 app.use(router).mount("#app");
