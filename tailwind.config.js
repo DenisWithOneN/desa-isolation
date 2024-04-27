@@ -16,6 +16,10 @@ module.exports = {
         desadarkgray: "#464646",
         desablack: "#1C1C1C",
       },
+      spacing: {
+        98: "30rem",
+        100: "35rem",
+      },
     },
   },
   variants: {
