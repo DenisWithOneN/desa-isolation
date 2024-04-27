@@ -35,9 +35,10 @@ watch(showNav, (value) => {
     </div>
 
     <!-- navigation links -->
-      <div
+      <transition name="slide">
+        <div
         v-if="showNav"
-        class="bg-white  w-full fixed top-0 left-0 flex flex-col items-center py-10"
+        class="bg-white  w-full fixed top-0 left-0 flex flex-col items-center py-10 mt-10"
       >
         <button @click="closeNavBar()" class="text-desablack text-2xl">
           <i class="bi bi-x-lg"></i>
@@ -75,9 +76,15 @@ watch(showNav, (value) => {
           </button>
         </div>
       </div>
+      </transition>
   </section>
 </template>
 <style scoped>
 
-
+.slide-enter-active, .slide-leave-active {
+  transition: all .3s ease;
+}
+.slide-enter, .slide-leave-to {
+  transform: translateY(-100%);
+}
 </style>
