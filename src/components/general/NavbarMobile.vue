@@ -38,10 +38,10 @@ watch(showNav, (value) => {
       <transition name="slide">
         <div
         v-if="showNav"
-        class="bg-white  w-full fixed top-0 left-0 flex flex-col items-center py-10 mt-10"
+        class="bg-white  w-full fixed top-0 left-0 flex flex-col items-center py-10 "
       >
-        <button @click="closeNavBar()" class="text-desablack text-2xl">
-          <i class="bi bi-x-lg"></i>
+        <button @click="closeNavBar()" class="text-desadarkgreen text-4xl font-black">
+          <i class="bi bi-x"></i>
         </button>
         <div class="flex flex-col gap-5 pt-5">
           <button
@@ -70,7 +70,7 @@ watch(showNav, (value) => {
           </button>
           <button
             @click="closeNavBar()"
-            class="text-desablack uppercase font-semibold"
+            class="text-desadarkgreen uppercase font-semibold"
           >
             <RouterLink to="/contact">contact</RouterLink>
           </button>
