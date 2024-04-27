@@ -11,7 +11,7 @@ import FooterList from "../general/FooterList.vue";
         alt="logo"
         class="h-32 sm:h-36 md:h-48 lg:h-52 2xl:h-60"
       />
-      <div class="flex flex-col md:flex-row gap-10">
+      <div class="flex flex-col items-center md:items-start md:flex-row gap-10">
         <FooterList
           :listHeader="`companie`"
           :listItem1="`despre noi`"
