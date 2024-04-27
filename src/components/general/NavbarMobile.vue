@@ -1,16 +1,27 @@
 <script setup>
-import { ref } from "vue";
+import { ref, watch } from "vue";
 
 const showNav = ref(false);
 
 function closeNavBar() {
   showNav.value = !showNav.value;
 }
+
+watch(showNav, (value) => {
+  if (value) {
+    document.documentElement.style.overflow = "hidden";
+  } else {
+    document.documentElement.style.overflow = "auto";
+    
+  }
+});
+
+
 </script>
 <template>
   <section>
     <!-- navbar -->
-    <div class="bg-white flex md:hidden justify-between items-center p-2">
+    <div class="bg-white  flex md:hidden justify-between items-center p-2">
       <button
         class="text-desalightgreen text-2xl sm:text-3xl"
         @click="closeNavBar()"
@@ -24,15 +35,14 @@ function closeNavBar() {
     </div>
 
     <!-- navigation links -->
-    <transition name="slide">
       <div
         v-if="showNav"
-        class="bg-desalightgreen w-1/2 min-h-screen fixed top-0 left-0 flex flex-col items-center pt-10"
+        class="bg-white  w-full fixed top-0 left-0 flex flex-col items-center py-10"
       >
         <button @click="closeNavBar()" class="text-desablack text-2xl">
           <i class="bi bi-x-lg"></i>
         </button>
-        <div class="flex flex-col pt-5">
+        <div class="flex flex-col gap-5 pt-5">
           <button
             @click="closeNavBar()"
             class="text-desadarkgreen uppercase font-semibold"
@@ -65,20 +75,9 @@ function closeNavBar() {
           </button>
         </div>
       </div>
-    </transition>
   </section>
 </template>
 <style scoped>
-.slide-enter-active,
-.slide-leave-active {
-  transition: transform 0.3s ease;
-}
-.slide-enter,
-.slide-leave-to {
-  transform: translateX(-100%);
-}
-.slide-enter-to,
-.slide-leave {
-  transform: translateX(0);
-}
+
+
 </style>
