@@ -29,7 +29,7 @@ const props = defineProps({
     </span>
 
     <p
-      class="text-white text-sm md:text-md lg:text-lg xl:text-xl text-center px-3 w-52 mt-10 lg:w-72 xl:w-96"
+      class="text-white text-sm text-center max-w-lg px-3 mt-10 md:text-md lg:text-lg xl:text-xl"
     >
       {{ text }}
     </p>
