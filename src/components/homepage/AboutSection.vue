@@ -1,6 +1,6 @@
 <script setup></script>
 <template>
-  <section class="bg-desalightgray py-24">
+  <section class="bg-desalightgray py-16">
     <div
       class="container mx-auto flex flex-col justify-around items-center px-10 lg:flex-row lg:gap-10"
     >

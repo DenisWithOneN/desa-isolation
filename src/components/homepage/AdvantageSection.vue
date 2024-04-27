@@ -3,7 +3,7 @@ import AdvantageCard from "../homepage/AdvantageCard.vue";
 import FillButton from "../general/FillButton.vue";
 </script>
 <template>
-  <section class="py-24">
+  <section class="py-16">
     <div class="container mx-auto flex flex-col items-center gap-10 lg:px-10">
       <div class="flex flex-col items-center gap-5 lg:hidden">
         <div class="flex flex-col items-center">

@@ -2,7 +2,7 @@
 import ProjectCard from "../homepage/ProjectCard.vue";
 </script>
 <template>
-  <section class="bg-desalightgray py-24">
+  <section class="bg-desalightgray py-16">
     <div class="container mx-auto flex flex-col items-center gap-10 px-10">
       <div class="flex flex-col items-center gap-2">
         <h2

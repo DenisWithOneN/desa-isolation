@@ -2,7 +2,7 @@
 import Definition from "../homepage/Definition.vue";
 </script>
 <template>
-  <section class="bg-desadarkgreen py-24">
+  <section class="bg-desadarkgreen py-16">
     <div class="container mx-auto px-10 flex flex-col items-center">
       <span class="flex flex-col items-center gap-3">
         <h2

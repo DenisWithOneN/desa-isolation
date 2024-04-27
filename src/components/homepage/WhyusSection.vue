@@ -3,7 +3,7 @@ import WhyusCard from "../homepage/WhyusCard.vue";
 import WhyusReviewCard from "../homepage/WhyusReviewCard.vue";
 </script>
 <template>
-  <section class="bg-desadarkgreen py-24">
+  <section class="bg-desadarkgreen py-16">
     <div class="container mx-auto flex flex-col items-center gap-10 px-10">
       <div class="flex flex-col items-center gap-2">
         <p class="text-white text-sm uppercase lg:text-md">

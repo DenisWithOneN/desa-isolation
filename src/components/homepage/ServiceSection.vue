@@ -3,7 +3,7 @@ import FillButton from "../general/FillButton.vue";
 import ServiceCard from "../homepage/ServiceCard.vue";
 </script>
 <template>
-  <section class="py-24">
+  <section class="py-16">
     <div class="container mx-auto block lg:flex lg:px-10">
       <div
         class="flex flex-col items-center justify-around gap-3 mb-12 px-10 lg:items-start lg:order-last lg:w-1/2"
