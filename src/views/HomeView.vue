@@ -8,6 +8,7 @@ import AdvantageSection from "/src/components/homepage/AdvantageSection.vue";
 import ProjectSection from "/src/components/homepage/ProjectSection.vue";
 import WhyusSection from "/src/components/homepage/WhyusSection.vue";
 import Footer from "/src/components/general/Footer.vue";
+import ContactSection from "/src/components/homepage/ContactSection.vue";
 </script>
 <template>
   <Navbar />
@@ -18,6 +19,7 @@ import Footer from "/src/components/general/Footer.vue";
   <AdvantageSection />
   <ProjectSection />
   <WhyusSection />
+  <ContactSection />
   <Footer />
 </template>
 <style scoped></style>
