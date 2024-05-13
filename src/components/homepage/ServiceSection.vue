@@ -32,10 +32,10 @@ import ServiceCard from "../homepage/ServiceCard.vue";
           mare atenție și expertiză.
         </p>
         <FillButton
-          text="servicii >"
-          route="/services"
-          class="hidden lg:block"
-        ></FillButton>
+          :text="`servicii >`"
+          :route="`/services`"
+          :class="`hidden lg:flex`"
+        />
       </div>
 
       <div class="flex flex-col justify-center items-center gap-10 lg:w-1/2">
@@ -65,7 +65,7 @@ import ServiceCard from "../homepage/ServiceCard.vue";
         <FillButton
           text="servicii"
           route="/services"
-          class="block lg:hidden"
+          class="flex lg:hidden "
         ></FillButton>
       </div>
     </div>

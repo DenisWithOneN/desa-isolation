@@ -16,8 +16,8 @@ import EmptyButton from "../general/EmptyButton.vue";
             și promptitudine
           </h1>
           <div class="flex flex-col gap-3 md:flex-row">
-            <FillButton text="despre noi" route="/about"></FillButton>
-            <EmptyButton text="contact" route="/contact"></EmptyButton>
+            <FillButton :text="`despre noi`" :route="`/about`"></FillButton>
+            <EmptyButton :text="`contact`" :route="`/contact`"></EmptyButton>
           </div>
         </div>
         <div class="bg-desalightgreen hidden w-2 h-52 xl:h-60 lg:block"></div>

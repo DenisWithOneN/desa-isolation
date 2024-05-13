@@ -52,7 +52,7 @@ import FillButton from "../general/FillButton.vue";
             <FillButton
               :text="`servicii`"
               :route="`/services`"
-              class="hidden lg:block"
+              class="hidden lg:flex"
             ></FillButton>
           </div>
           <AdvantageCard

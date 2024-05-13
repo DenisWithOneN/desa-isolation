@@ -42,7 +42,7 @@ import FillButton from "../general/FillButton.vue";
         <FillButton
           :text="`contact >`"
           :route="`/contact`"
-          class="hidden lg:block mt-3"
+          class="hidden lg:flex mt-3"
         ></FillButton>
       </div>
 
