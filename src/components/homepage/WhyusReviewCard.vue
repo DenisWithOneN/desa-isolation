@@ -1,6 +1,6 @@
 <script setup></script>
 <template>
-  <div class="bg-desalightgray w-72 h-72">
+  <div class="bg-white rounded-md w-72 h-60 md:w-80 md:h-64 lg:h-72 xl:w-96 xl:h-80">
     <div class="p-5">
       <div class="flex rounded-full justify-between">
         <i
@@ -11,7 +11,7 @@
           <i class="text-desalime bi bi-star-fill"></i>
         </div>
       </div>
-      <p class="text-desadarkgray text-sm mt-8">
+      <p class="text-desadarkgray text-sm">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi
         reiciendis tempore, dolorem quidem ipsa harum natus dolores atque
         accusamus aut. Amet ex molestiae quibusdam eum ratione praesentium sit

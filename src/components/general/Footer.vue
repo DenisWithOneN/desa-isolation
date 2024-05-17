@@ -2,7 +2,7 @@
 import FooterList from "../general/FooterList.vue";
 </script>
 <template>
-  <section class="bg-desablack py-24">
+  <section class="bg-desablack py-16">
     <div
       class="container mx-auto flex flex-col lg:flex-row lg:justify-around items-center gap-5"
     >

@@ -1,6 +1,7 @@
 <script setup>
 import FillButton from "../general/FillButton.vue";
 import ServiceCard from "../homepage/ServiceCard.vue";
+import SmallTitle from "../general/SmallTitle.vue";
 </script>
 <template>
   <section class="py-16">
@@ -8,21 +9,15 @@ import ServiceCard from "../homepage/ServiceCard.vue";
       <div
         class="flex flex-col items-center justify-around gap-3 mb-12 px-10 lg:items-start lg:order-last lg:w-1/2"
       >
-        <div class="flex flex-col items-center lg:items-start">
-          <p class="text-desadarkgray text-sm uppercase lg:text-md">
-            ce oferim
-          </p>
-          <div class="bg-desalightgreen w-12 h-1 mt-1 lg:w-14"></div>
-        </div>
-
+        <SmallTitle :text="`ce oferim`" />
         <h2
-          class="text-desadarkgreen text-3xl text-center font-black uppercase mb-2 sm:text-4xl md:text-5xl lg:text-5xl lg:text-start xl:text-6xl 2xl:text-6xl"
+          class="text-desadarkgreen text-3xl text-center font-black uppercase mb-2 sm:text-4xl md:text-5xl lg:text-start xl:text-6xl"
         >
           alege serviciul potrivit pentru tine
         </h2>
 
         <p
-          class="text-desadarkgray text-center text-sm sm:text-md md:text-lg lg:text-lg lg:text-start xl:text-xl 2xl:text-2xl"
+          class="text-desadarkgray text-center text-sm sm:text-base md:text-lg lg:text-lg lg:text-start xl:text-xl"
         >
           Cu o gamă completă de soluții de izolare cu spumă poliuretanică,
           suntem aici pentru a vă oferi confortul și protecția de care aveți
@@ -65,7 +60,7 @@ import ServiceCard from "../homepage/ServiceCard.vue";
         <FillButton
           text="servicii"
           route="/services"
-          class="flex lg:hidden "
+          class="flex lg:hidden"
         ></FillButton>
       </div>
     </div>

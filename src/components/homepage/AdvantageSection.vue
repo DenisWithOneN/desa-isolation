@@ -1,15 +1,13 @@
 <script setup>
 import AdvantageCard from "../homepage/AdvantageCard.vue";
 import FillButton from "../general/FillButton.vue";
+import SmallTitle from "../general/SmallTitle.vue";
 </script>
 <template>
   <section class="py-16">
     <div class="container mx-auto flex flex-col items-center gap-10 lg:px-10">
       <div class="flex flex-col items-center gap-5 lg:hidden">
-        <div class="flex flex-col items-center">
-          <p class="text-desadarkgray text-sm uppercase lg:text-md">servicii</p>
-          <div class="bg-desalightgreen w-12 h-1 mt-1 lg:w-14"></div>
-        </div>
+        <SmallTitle :text="`servicii`" />
         <h2
           class="text-desadarkgreen text-3xl text-center font-black uppercase sm:text-4xl md:text-5xl"
         >
@@ -44,7 +42,7 @@ import FillButton from "../general/FillButton.vue";
               <div class="bg-desalightgreen w-12 h-1 mt-1 lg:w-14" />
             </div>
             <h2
-              class="text-desadarkgreen text-4xl font-black text-end uppercase xl:text-5xl 2xl:text-6xl"
+              class="text-desadarkgreen text-5xl font-black text-end uppercase xl:text-5xl 2xl:text-6xl"
             >
               avantajele spumei<br />
               poliuretanice
@@ -52,7 +50,7 @@ import FillButton from "../general/FillButton.vue";
             <FillButton
               :text="`servicii`"
               :route="`/services`"
-              class="hidden lg:flex"
+              class="hidden xl:flex"
             ></FillButton>
           </div>
           <AdvantageCard

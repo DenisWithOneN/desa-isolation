@@ -2,6 +2,7 @@
 import FillButton from "../general/FillButton.vue";
 import EmptyButton from "../general/EmptyButton.vue";
 </script>
+
 <template>
   <section>
     <div class="hero flex">
@@ -10,9 +11,9 @@ import EmptyButton from "../general/EmptyButton.vue";
       >
         <div class="flex flex-col items-center lg:items-end">
           <h1
-            class="text-white text-center text-2xl font-black uppercase mb-2 sm:text-4xl md:text-5xl lg:text-6xl lg:text-end xl:text-7xl"
+            class="text-white text-center text-3xl font-black uppercase mb-2 sm:text-4xl md:text-5xl lg:text-6xl lg:text-end xl:text-7xl"
           >
-            eficiență, confort<br />
+            eficiență, confort
             și promptitudine
           </h1>
           <div class="flex flex-col gap-3 md:flex-row">
