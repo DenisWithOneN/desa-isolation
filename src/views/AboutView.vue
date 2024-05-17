@@ -1,5 +1,15 @@
-<script setup></script>
+<script setup>
+import Navbar from "../components/general/Navbar.vue";
+import HeroSection from "../components/about/HeroSection.vue";
+import SecondSection from "../components/about/SecondSection.vue";
+import ThirdSection from "../components/about/ThirdSection.vue";
+import Footer from "../components/general/Footer.vue";
+</script>
 <template>
-  <p class="flex justify-center items-center min-h-screen">about view</p>
+  <Navbar />
+  <HeroSection />
+  <SecondSection />
+  <ThirdSection />
+  <Footer />
 </template>
 <style scoped></style>
