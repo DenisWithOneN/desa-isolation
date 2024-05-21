@@ -10,6 +10,7 @@ import AboutView from "./views/AboutView.vue";
 import ServiceView from "./views/ServiceView.vue";
 import ProjectsView from "./views/ProjectsView.vue";
 import ContactView from "./views/ContactView.vue";
+import SingleProjectView from "./views/SingleProjectView.vue";
 
 const routes = [
   { path: "/", component: HomeView },
@@ -17,6 +18,7 @@ const routes = [
   { path: "/services", component: ServiceView },
   { path: "/projects", component: ProjectsView },
   { path: "/contact", component: ContactView },
+  { path: "/projects/:id", name: "SingleProjectView", component: SingleProjectView },
 ];
 
 const router = createRouter({
