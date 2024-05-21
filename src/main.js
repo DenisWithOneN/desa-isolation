@@ -8,14 +8,14 @@ import App from "./App.vue";
 import HomeView from "./views/HomeView.vue";
 import AboutView from "./views/AboutView.vue";
 import ServiceView from "./views/ServiceView.vue";
-import ProjectView from "./views/ProjectView.vue";
+import ProjectsView from "./views/ProjectsView.vue";
 import ContactView from "./views/ContactView.vue";
 
 const routes = [
   { path: "/", component: HomeView },
   { path: "/about", component: AboutView },
   { path: "/services", component: ServiceView },
-  { path: "/projects", component: ProjectView },
+  { path: "/projects", component: ProjectsView },
   { path: "/contact", component: ContactView },
 ];
 
