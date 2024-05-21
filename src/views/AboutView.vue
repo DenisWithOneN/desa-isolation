@@ -6,10 +6,12 @@ import ThirdSection from "../components/about/ThirdSection.vue";
 import Footer from "../components/general/Footer.vue";
 </script>
 <template>
-  <Navbar />
-  <HeroSection />
-  <SecondSection />
-  <ThirdSection />
-  <Footer />
+  <div class="flex flex-col justify-between ">
+    <Navbar />
+    <HeroSection />
+    <SecondSection />
+    <ThirdSection />
+    <Footer />
+  </div>
 </template>
 <style scoped></style>
