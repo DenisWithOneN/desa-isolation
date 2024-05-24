@@ -1,5 +1,13 @@
-<script setup></script>
+<script setup>
+import Navbar from "../components/general/Navbar.vue";
+import Footer from "../components/general/Footer.vue";
+import HeroSection from "../components/contact/HeroSection.vue";
+import ContactSection from "../components/contact/ContactSection.vue";
+</script>
 <template>
-  <p class="flex justify-center items-center min-h-screen">contact view</p>
+  <Navbar/>
+  <HeroSection/>
+  <ContactSection/>
+  <Footer/>
 </template>
 <style scoped></style>
