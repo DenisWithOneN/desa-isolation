@@ -4,19 +4,20 @@ import FillButton from ".././general/FillButton.vue";
 <template>
   <section class="py-14">
     <div
-      class="container mx-auto flex flex-col text-center items-center px-8 gap-5"
+      class="text-desadarkgreen container mx-auto flex flex-col text-center items-center max-w-xl px-5 gap-5"
     >
       <h2
-        class="text-desadarkgreen text-3xl font-black uppercase max-w-xl sm:text-4xl md:text-5xl xl:text-6xl"
+        class="text-3xl font-black uppercase sm:text-4xl md:text-5xl xl:text-6xl"
       >
-        lorem ipsum dolor sit amet consectetur
+        Valorile Noastre
       </h2>
-      <p
-        class="text-desadarkgreen text-sm max-w-xl md:text-base lg:text-lg xl:text-xl"
-      >
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem numquam ex
-        aliquid debitis cum saepe totam dolores voluptate dolorum, amet quia
-        alias iste quam, hic dolore animi nisi? Suscipit, enim?
+      <p class="text-sm md:text-base lg:text-lg xl:text-xl">
+        La DESA Isolation, integritatea, inovația și satisfacția clientului sunt
+        la baza activității noastre. Credem că fiecare proiect este o
+        oportunitate de a demonstra angajamentul nostru față de calitate și
+        sustenabilitate. Investim constant în tehnologii avansate și instruirea
+        echipei pentru a oferi cele mai eficiente soluții de izolație
+        disponibile pe piață.
       </p>
       <div class="flex flex-col items-center gap-5 md:flex-row">
         <FillButton :text="`proiecte`" :route="`/projects`" />

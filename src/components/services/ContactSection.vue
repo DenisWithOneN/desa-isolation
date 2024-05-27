@@ -8,7 +8,7 @@ import FillButton from "../../components/general/FillButton.vue";
     >
       <div
         class="bg-desalightgray w-64 h-64 sm:w-72 sm:h-72 md:w-80 md:h-80 md:order-last xl:w-96 xl:h-96"
-      ></div>
+      />
       <div
         class="flex flex-col items-center justify-center text-center gap-5 mt-8 px-5 md:mt-0 md:items-start md:text-start md:w-1/2"
       >
